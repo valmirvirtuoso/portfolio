@@ -1,0 +1,48 @@
+:root {
+
+    --color-background-primary: #111111;
+    --color-background-secundary: #191919;
+    --color-background-third: #1E1E1E;
+    --color-primary: #B11722;
+    --color-secundary: #FC393F;
+    --color-font: #F2F3F4;
+
+}
+
+* {
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+
+    background-color: var(--color-background-primary);
+    color: var(--color-font);
+
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 40px 300px;
+
+}
+
+header .menu .menu-item {
+
+    margin-right: 20px;
+    text-decoration: none;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    color: var(--color-font);
+    letter-spacing: 1px;
+
+}
+
+
+
